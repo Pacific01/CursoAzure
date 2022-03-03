@@ -36,4 +36,7 @@ Presentaciones:
   * commit
   * push
 
+* Instalar [Azure function tools](https://docs.microsoft.com/es-es/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash)
+* [Ejemplo javascript con azure functions](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-node?tabs=azure-cli%2Cbrowser)
+
 * Hacer el ejercicio de giphy

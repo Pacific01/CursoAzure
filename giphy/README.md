@@ -6,6 +6,8 @@
 ## Requisitos
 
 * [Git-scm](https://git-scm.com/)
+* Install Azure Functions
+* Install Azure-cli
 * Cuanta de [GitHub](https://github.com/)
 * Cuenta de [Giphy Developers](https://developers.giphy.com/)
 * Cuenta de [Azure](https://azure.microsoft.com/en-us/)
@@ -48,13 +50,14 @@ git commit -m "Primer commit"
 ```
 
 * Lo subimos a GitHub
+
 ```sh
 git push -u origin main
 ```
 
 * Configuramos un APP Service de web estática con GitHub
 
-⚠️ El profesor hace un ejemplo en la pizzara de como se ha de hacer.⚠️
+⚠️ El profesor hace un ejemplo en la pizarra de como se ha de hacer.⚠️
 
 * Descargamos las actualizaciones
 
@@ -62,9 +65,9 @@ git push -u origin main
 git pull
 ```
 
-### Puede que ons salga una adevtencia para configurar el pull por defecto:
+### Puede que nos salga una advertencia para configurar el pull por defecto
 
-```
+```sh
 git config pull.rebase true
 ```
 
@@ -78,3 +81,29 @@ git push
 ```
 
 * En este punto esperamos a que Azure suba los cambios de forma automática.
+
+## Azure Functions
+
+* Crear la carpeta de funciones aka api
+
+```sh
+func init api --javascript
+```
+
+* Se habrá creado una carpeta con cierto contenido útil para Azure.
+
+* Entramos dentro
+
+```sh
+cd api
+```
+
+* Crear la function
+⚠️ El profesor hace un ejemplo en la pizarra de como se ha de hacer.⚠️
+
+* Conectar la App Service Static to the function
+
+## Otros
+
+* [Azure functions API Example](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-node?tabs=azure-cli%2Ccurl)
+

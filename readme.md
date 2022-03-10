@@ -36,7 +36,17 @@ Presentaciones:
   * commit
   * push
 
+## Tercer día
+
+* Repasar lo que dimos el último día: Conceptos de programación, infraestructura
+  de un proyecto, git y ssh (Como se interconecta todo de forma segura).
+
+* Revisar el panel de Azure.
+
+* Explicar el proyecto de giphy functions.
+
 * Instalar [Azure function tools](https://docs.microsoft.com/es-es/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash)
 * [Ejemplo javascript con azure functions](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-node?tabs=azure-cli%2Cbrowser)
 
 * Hacer el ejercicio de giphy
+

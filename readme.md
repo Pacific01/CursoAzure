@@ -43,6 +43,8 @@ Presentaciones:
 
 * Revisar el panel de Azure.
 
+* Repasar [Git](https://docs.github.com/es/get-started/quickstart/hello-world)
+
 * Explicar el proyecto de giphy functions.
 
 * Instalar [Azure function tools](https://docs.microsoft.com/es-es/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash)

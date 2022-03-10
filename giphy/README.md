@@ -59,7 +59,8 @@ git push -u origin main
 
 ⚠️ El profesor hace un ejemplo en la pizarra de como se ha de hacer.⚠️
 
-* Descargamos las actualizaciones
+* Descargamos las actualizaciones que ha hecho Azure en nuestro proyecto en
+  local.
 
 ```sh
 git pull
@@ -71,8 +72,14 @@ git pull
 git config pull.rebase true
 ```
 
+## Vamos a comprobar que todo es correcto.
+
 * Hacemos un cambio en la aplicación, Editando el index.html. Vamos a añadir una
-  descripión de como funciona la aplicación.
+  descripción de como funciona la aplicación.
+
+```html
+<h2>Gif Search es un buscador de gifs sobre la API de [GIPHY](https://giphy.com/)</h1>
+```
 
 * Volvemos a subir los cambios
 
@@ -83,6 +90,10 @@ git push
 * En este punto esperamos a que Azure suba los cambios de forma automática.
 
 ## Azure Functions
+
+⚠️ El profesor hace un ejemplo en la pizarra de como se ha de hacer.⚠️
+
+- Link de interés para esta parte del ejercicio: [Azure Functions JavaScript Command line](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-node?tabs=azure-cli%2Cbrowser)
 
 * Crear la carpeta de funciones aka api
 
@@ -99,8 +110,6 @@ cd api
 ```
 
 * Crear la function
-⚠️ El profesor hace un ejemplo en la pizarra de como se ha de hacer.⚠️
-
 * Conectar la App Service Static to the function
 
 ## Otros
